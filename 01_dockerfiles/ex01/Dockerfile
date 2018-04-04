@@ -27,4 +27,4 @@ ENTRYPOINT ["sh", "./ts3server_minimal_runscript.sh", "createinifile=1"]
 # To build the container use:
 #	docker build . -t ts
 # To run the container use: 
-#	docker run -p 9987:9987/udp -p 30033:30033 -p 10011:10011 ts	
+#	docker run -p 9987:9987/udp -p 30033:30033 -p 10011:10011 ts
